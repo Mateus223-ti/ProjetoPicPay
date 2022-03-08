@@ -1,0 +1,269 @@
+body{
+    background-color: #228664;
+    font-family: 'Poppins', sans-serif;
+}
+.layoutCabecalho{
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+.layoutCabecalho .container{
+    display: flex;
+    align-items: center;
+}
+.cabecalhoLogoPicPro img{
+    width: 100%;
+    max-width: 140px;
+
+}
+.layoutCabecalho .cabecalhoLogoPicPro{
+    border-right: 1px solid rgba(255, 255, 255, 0.4) ;
+    margin-right: 15px;
+}
+.secaoUsuario{
+    color:#fff;
+    padding: 60px;
+}
+.iconeUsuario{
+    display: flex;
+    align-items: center;
+}
+.secaoUsuario p{
+    font-size: 18px;
+    margin-left: 10px;
+}
+.secaoUsuario img{
+    width: 100%;
+    max-width: 50px;
+}
+.secaoUsuario p strong{
+    display: block;
+    font-weight: bold;
+}
+.presenteImg{
+    width: 100%;
+    padding: 30px;
+    margin-left: 1220px;
+    max-width: 20px;
+    max-height: 50px;
+    align-items:  center;
+}
+.chatImg{
+    max-width: 20px;
+    max-height: 50px;
+}
+.saldoTopo{
+    border-top: 1px solid rgba(0, 0 , 0, 0.15);    
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    align-items:  center;
+
+}
+.saldoTopo p{
+    font-size: 18px;
+    line-height: 20px;
+}
+.saldoTopo p strong{
+        display: block;
+        font-weight: bold;
+}
+.saldoTopo button{
+    background-color: #ffffff;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 60px;
+    border-radius: 10px;
+    cursor:grab; 
+}
+.saldoTopo  img{
+    margin-bottom: 1px;
+    margin-right: 1200px;
+    margin-bottom: -2%;
+    max-width: 30px;
+
+   
+}
+.opcoesTransacoes{
+    display: flex;
+    justify-content: space-between;
+}
+.opcoesTransacoes li{
+    background-color:#1F6F54 ;
+    width: 178px;
+    height: 160px;
+    border-radius: 20px;
+    padding: 40px 20px;
+
+}
+.opcoesTransacoes li img{
+    width: 100%;
+    max-width:74px;
+
+}
+.opcoesTransacoes li p{
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+    line-height: 25px ;
+    width: 80px;
+}
+
+.pagamentoTopico{
+    background-color: #fff;
+    border-radius: 20px 20px 0 0 ;
+    border-bottom: 15px solid #b8b5b5;
+    padding: 30px;
+}
+.textoFormaDePagamento p {
+    text-align: center;
+    font-size: 25px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+    padding: 30px 60px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+  
+} 
+.textoFormaDePagamento img {
+    width: 100%;
+    margin: 30px 0 90px;
+} 
+.transacaoQrCode{
+    text-align: center;
+}
+.transacaoQrCode img{
+    max-width: 180px ;
+}
+.transacaoQrCode p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px 0 ;
+    padding: 10px;
+}
+.transacaoQrCode button{
+    background-color: #228664;
+    border: none;
+    color:#fff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 50px 0 20px;
+    padding: 15px 150px;
+}
+.transacaoQrCode a{
+    display: block;
+    color: black;
+    font-weight: bold;
+}
+.pixIcone img{
+    width:100%;
+    max-width: 150px;
+}
+.secaoTransacao{
+    display: flex;
+    align-items: center;
+    border: 1px solid #1F6F54;
+    max-width: 500px;
+    border-radius: 10px;
+    padding: 14px 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15); /* Efeito de sombra */
+    margin: 20px 0;
+
+}
+.secaoTransacao img{
+    width: 100%;
+    max-width: 60px;
+    margin-right: 10px;
+}
+.secaoTransacao p{
+    font-size: 16px;
+    line-height: 20px;
+}
+.boletoTopico{
+
+} 
+.boletoTopico img{
+    width: 100%;
+    max-width: 80px;
+}
+.boletoTopico h2{
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.boletoTopico p{
+    font-size: 18px;
+    max-width: 500px;
+    margin:20px 0 ;
+
+}
+.boletoTopico input{
+    width: 100%;
+    background-color: #D2D2D2 ;
+    font-size:16px ;
+    height: 50px;
+    padding: 0 80px;
+    border-radius: 10px;
+    border: 1px solid #D2D2D2 ;
+    max-width: 200px;
+    color: black;
+}
+.topicoCobrar{
+    
+}
+.topicoCobrar img{
+    width: 100%;
+    max-width: 80px;
+    
+}
+.topicoCobrar h2{
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+.topicoIcon{
+    background-color: #fff;
+    align-items: center;
+    border: 1px solid #1F6F54;
+    height: 60px;
+    display: flex;
+    text-align: center;
+    padding: 40px 0px;
+    font-size: 18px;
+    max-width: 500px;
+    margin:0px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    border: none;
+}
+.rodape{
+    background-color: #fff;
+
+}
+.rodapePrincipal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rodapePrincipal li{
+    text-align: center;
+}
+.rodapePrincipal li a{
+    color: black;
+    text-decoration: none;
+}
+.rodapePrincipal li a img {
+    width: 100%;
+    max-width: 50px;
+    
+}
+.rodapePrincipal li a img p {
+  margin-top: 20px;
+  max-height: 90px;
+}
+.menuPagar a img{
+    transform: translateY(-30px);
+    height: 90px;
+   
+   
+}
